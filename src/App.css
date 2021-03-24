@@ -1,3 +1,7 @@
+body, h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -11,6 +15,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.row-bootstrap {
+  margin-top: 20px;
 }
 
 .App-header {
