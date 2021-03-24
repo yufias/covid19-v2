@@ -1,7 +1,6 @@
 import { Container, Row, Col, Spinner, Card } from 'react-bootstrap'
 import Axios from 'axios'
 import { useState, useEffect } from 'react'
-import { MDBDataTable } from 'mdbreact';
 
 function Indo() {
     const [targetTotal, setTargetTotal] = useState(0)
@@ -63,7 +62,7 @@ function Indo() {
                     <Card
                         bg="white"
                         text="primary"
-                        style={{ width: '22rem', height: '7rem' }}
+                        style={{ height: '7rem' }}
                         className="m-auto p-auto"
                     >
                         <Card.Body className="p-auto">
@@ -80,7 +79,7 @@ function Indo() {
                     <Card
                         bg="white"
                         text="info"
-                        style={{ width: '22rem', height: '7rem' }}
+                        style={{ height: '7rem' }}
                         className="m-auto"
                     >
                         <Card.Body>
@@ -95,7 +94,7 @@ function Indo() {
                     <Card
                         bg="white"
                         text="info"
-                        style={{ width: '22rem', height: '7rem' }}
+                        style={{ height: '7rem' }}
                         className="m-auto"
                     >
                         <Card.Body>
@@ -110,7 +109,7 @@ function Indo() {
                     <Card
                         bg="white"
                         text="info"
-                        style={{ width: '22 rem', height: '7rem' }}
+                        style={{ height: '7rem' }}
                         className="m-auto"
                     >
                         <Card.Body>
@@ -127,7 +126,7 @@ function Indo() {
                     <Card
                         bg="white"
                         text="success"
-                        style={{ width: '22 rem', height: '7rem' }}
+                        style={{ height: '7rem' }}
                         className="m-auto"
                     >
                         <Card.Body>
@@ -142,7 +141,7 @@ function Indo() {
                     <Card
                         bg="white"
                         text="success"
-                        style={{ width: '22 rem', height: '7rem' }}
+                        style={{  height: '7rem' }}
                         className="m-auto"
                     >
                         <Card.Body>

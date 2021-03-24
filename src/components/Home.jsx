@@ -94,7 +94,6 @@ function Home() {
                     <Card
                         bg="white"
                         text="warning"
-                        style={{ width: '18rem' }}
                         className="m-auto"
                     >
                         <Card.Body>
@@ -109,7 +108,6 @@ function Home() {
                     <Card
                         bg="white"
                         text="danger"
-                        style={{ width: '18rem' }}
                         className="m-auto"
                     >
                         <Card.Body>
@@ -124,7 +122,6 @@ function Home() {
                     <Card
                         bg="white"
                         text="success"
-                        style={{ width: '18rem' }}
                         className="m-auto"
                     >
                         <Card.Body>
@@ -169,7 +166,6 @@ function Home() {
                     <Card
                         bg="white"
                         text="warning"
-                        style={{ width: '18rem' }}
                         className="m-auto"
                     >
                         <Card.Body>
@@ -184,7 +180,6 @@ function Home() {
                     <Card
                         bg="white"
                         text="danger"
-                        style={{ width: '18rem' }}
                         className="m-auto"
                     >
                         <Card.Body>
@@ -199,7 +194,6 @@ function Home() {
                     <Card
                         bg="white"
                         text="success"
-                        style={{ width: '18rem' }}
                         className="m-auto"
                     >
                         <Card.Body>
