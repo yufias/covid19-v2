@@ -12,7 +12,7 @@ function Footer() {
                 </Row>
                 <Row>
                     <Col>
-                        API from : <a href="https://github.com/mathdroid/covid-19-api" target="_blank">Mathdroid</a> & <a href="https://github.com/Reynadi531/vaksincovid19-api" target="_blank">Reynaldi</a>
+                        API from : <a href="https://github.com/mathdroid/covid-19-api" target="_blank">Mathdroid</a> & <a href="https://github.com/Reynadi531/vaksincovid19-api" target="_blank">Reynadi</a>
                     </Col>
                 </Row>
             </MDBContainer>

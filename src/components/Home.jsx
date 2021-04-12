@@ -23,6 +23,11 @@ function Home() {
             setDeath(response.deaths.value)
             setRecovered(response.recovered.value)
             setUpdate(response.lastUpdate)
+
+            return Axios.get("https://covid19.mathdro.id/api/countries")
+        })
+        .then(data => {
+            setCountries(data.data.countries)
         })
         .catch(err => {
             console.log(err)
@@ -32,15 +37,6 @@ function Home() {
         })
     }
 
-    function getCountries() {
-        Axios.get("https://covid19.mathdro.id/api/countries")
-        .then(data => {
-            setCountries(data.data.countries)
-        })
-        .catch(err => {
-            console.log(err)
-        })
-    }
 
     function countryDetail(event) {
         console.log(event.target.value)
@@ -70,7 +66,6 @@ function Home() {
 
     useEffect(() => {
         globalData()
-        getCountries()
     }, [])
 
     if(loading) {
